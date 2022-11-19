@@ -15,45 +15,17 @@ public class UIPanelController : MonoBehaviour
 
     #endregion
 
-
     #endregion
-
-    private void OnEnable()
-    {
-        SubscribeEvents();
-    }
-
-    private void SubscribeEvents()
-    {
-
-
-
-    }
-
-    private void UnSubscribeEvents()
-    {
-
-
-
-    }
-
-    private void OnDisable()
-    {
-        UnSubscribeEvents();
-    }
 
     [Button("OpenPanel")]
     public void OnOpenPanel(UIPanelTypes type, int layerPos)
     {
-
-        Instantiate(Resources.Load<GameObject>($"Screens/{type}Panel"), layers[layerPos]);
-        
+        Instantiate(Resources.Load<GameObject>($"Screens/{type}Panel"), layers[layerPos]);   
     }
 
     [Button("ClosePanel")]
     public void OnClosePanel(int layerPos)
     {
-        Debug.Log("A0");
         if (layers[layerPos].transform.childCount > 0)
         {
             Destroy(layers[layerPos].GetChild(0).gameObject);
