@@ -50,20 +50,14 @@ public class UIPanelController : MonoBehaviour
         
     }
 
-    public void OnOpenPanelFirstLayer(int layerPos)
-    {
-
-        Instantiate(Resources.Load<GameObject>($"Screens/CraftingPanel"), layers[layerPos]);
-
-    }
-
     [Button("ClosePanel")]
     public void OnClosePanel(int layerPos)
     {
-
+        Debug.Log("A0");
         if (layers[layerPos].transform.childCount > 0)
-        { Destroy(layers[layerPos].GetChild(0).gameObject); }
-
+        {
+            Destroy(layers[layerPos].GetChild(0).gameObject);
+        }
     }
 
     private void OnCloseAllPanels()

@@ -214,6 +214,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1536632111}
     m_Modifications:
+    - target: {fileID: 921613750257897695, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 921613750257897695, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 921613750257897695, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1543226749}
+    - target: {fileID: 921613750257897695, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 921613750257897695, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 921613750257897695, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 921613750257897695, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Fight
+      objectReference: {fileID: 0}
+    - target: {fileID: 921613750257897695, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198211687526552930, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_Name
+      value: BTN-Crafting
+      objectReference: {fileID: 0}
     - target: {fileID: 3425517895482319216, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -309,6 +345,94 @@ PrefabInstance:
     - target: {fileID: 3425517895482319216, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067055721059166175, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067055721059166175, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1543226749}
+    - target: {fileID: 5067055721059166175, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067055721059166175, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067055721059166175, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Training
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067055721059166175, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855693037191089362, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855693037191089362, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855693037191089362, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1543226749}
+    - target: {fileID: 5855693037191089362, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855693037191089362, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855693037191089362, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855693037191089362, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Crafting
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855693037191089362, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253041265649001835, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253041265649001835, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253041265649001835, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1543226749}
+    - target: {fileID: 7253041265649001835, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253041265649001835, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253041265649001835, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253041265649001835, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Perks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253041265649001835, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8586877151909013668, guid: 286acc2d6a0262347af2527aa0c2d256, type: 3}
       propertyPath: m_Name
