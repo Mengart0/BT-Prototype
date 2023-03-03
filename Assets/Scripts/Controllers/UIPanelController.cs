@@ -8,7 +8,6 @@ namespace Controllers
 {
     public class UIPanelController : MonoBehaviour
     {
-
         #region Self Variables
 
         #region Serialized Variables
@@ -18,6 +17,8 @@ namespace Controllers
         #endregion
 
         #endregion
+
+        #region OdinInspector
 
         [Button("OpenPanel")]
         public void OnOpenPanel(UIPanelTypes type, int layerPos)
@@ -44,8 +45,10 @@ namespace Controllers
                 { Destroy(layers[i].GetChild(0).gameObject); }
 
             }
-
         }
+
+        #endregion
+
 
     }
 }

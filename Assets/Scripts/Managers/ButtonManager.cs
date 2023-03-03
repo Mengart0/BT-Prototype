@@ -10,7 +10,7 @@ namespace Managers
     {
         [SerializeField] private List<Transform> layers = new List<Transform>();
         UIPanelController UIPanelController;
-        gameManager gameManager;
+        moneyManager moneyManager;
 
         private List<string> BTNPanelNames = new List<string>()
         {
@@ -23,7 +23,7 @@ namespace Managers
         private void Start()
         {
             UIPanelController = GameObject.Find("UIPanelController").GetComponent<UIPanelController>();
-            gameManager = GameObject.Find("gameManager").GetComponent<gameManager>();
+            moneyManager = GameObject.Find("moneyManager").GetComponent<moneyManager>();
         }
 
         public void CloseScene()
@@ -39,7 +39,7 @@ namespace Managers
 
         public void UpgradeModifier()
         {
-            gameManager.multiplier += 1;
+            moneyManager.multiplier += 1;
         }
 
         #region Coloring Clicked Buttons
