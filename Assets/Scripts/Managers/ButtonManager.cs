@@ -39,7 +39,7 @@ namespace Managers
 
         public void UpgradeModifier()
         {
-            moneyManager.multiplier += 1;
+            moneyManager.powerMultiplier += 1; //Later on update it so that it will use money in return of power multiplier
         }
 
         #region Coloring Clicked Buttons

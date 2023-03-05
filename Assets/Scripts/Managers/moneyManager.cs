@@ -14,7 +14,8 @@ namespace Managers
 
         public double money;
         public double power;
-        public int multiplier = 1;
+        public int moneyMultiplier = 1;
+        public int powerMultiplier = 1;
 
         #endregion
 
@@ -43,7 +44,7 @@ namespace Managers
 
         public void Update()
         {
-            power += 1 * multiplier;
+            power += 1 * powerMultiplier;
         }
 
         private void FixedUpdate()
@@ -55,7 +56,7 @@ namespace Managers
         {
             while (true)
             {
-                money += 1 * multiplier;
+                money += 1 * moneyMultiplier;
                 yield return new WaitForSeconds(1);
             }
         }
